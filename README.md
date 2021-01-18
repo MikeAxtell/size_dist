@@ -21,11 +21,11 @@ conda config --add channels bioconda
 conda install pysam
 ```
 
-Now, [download the latest release as .zip from github.](https://github.com/MikeAxtell/size_dist/releases) Unzip it, then copy the script into your environment's /bin/
+Now, [download the latest release as .zip from github.](https://github.com/MikeAxtell/size_dist/releases) Unzip it,  cd into the
+directory, then copy the `size_dist.py` script into your environment's /bin/
 folder:
 ```
-unzip size_dist-main.zip
-cp size_dist-main/size_dist.py /path/to/miniconda3/envs/size_dist/bin/
+cp size_dist.py /path/to/miniconda3/envs/size_dist/bin/
 ```
 In the above, be sure to replace `/path/to` with the correct path to your
 miniconda3 installation. (Call `conda env list` to find this.)
